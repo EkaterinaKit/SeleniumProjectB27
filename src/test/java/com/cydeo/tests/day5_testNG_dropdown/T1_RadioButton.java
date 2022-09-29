@@ -35,7 +35,7 @@ public class T1_RadioButton {
         for (WebElement each : sportRadioButtons) {//going through all the sport radio buttons
             each.click();//clicking all sport radio buttons to check if they are clickable
             if(each.isSelected()){
-                System.out.println(each.getAttribute("id")+ "Radio button is selected");
+                System.out.println(each.getAttribute("id")+ "Radio button is selected");//getText() will not work in this case because getText() only works if there is a text
             }
             Thread.sleep(3000);// do not need it teh code but for the better visual representation of web browser go from one button to another button
             }
