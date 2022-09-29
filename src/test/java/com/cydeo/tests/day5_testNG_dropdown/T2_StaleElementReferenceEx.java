@@ -24,6 +24,7 @@ public class T2_StaleElementReferenceEx {
 
         //4. Verify “Delete” button is displayed after clicking.
         WebElement deleteButton = driver.findElement(By.xpath("//button[@class='added-manually']"));
+        System.out.println(deleteButton.isDisplayed());
 
         //5. Click to “Delete” button.
         deleteButton.click();
