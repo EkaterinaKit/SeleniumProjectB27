@@ -36,7 +36,7 @@ public class SelectFromNonSelect {
 //        5. Verify title is “Facebook - Log In or Sign Up”
         String actualTitle = driver.getTitle();
         String expectedTitle = "Facebook - Log In or Sign Up";
-        Assert.assertEquals(actualTitle,expectedTitle,"Titles are not matching");
+        Assert.assertEquals(expectedTitle,actualTitle);
     }
     @AfterMethod
     public void tearDownMethod(){
