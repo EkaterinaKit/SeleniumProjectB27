@@ -1,4 +1,4 @@
-package com.cydeo.tests.day4_xpath_checkbox;
+package com.cydeo.tests.day4_xpath_checkbox_findElements;
 
 import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
