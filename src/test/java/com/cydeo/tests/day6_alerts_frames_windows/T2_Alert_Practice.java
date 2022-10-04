@@ -57,7 +57,7 @@ public void promptAlert(){
 }
 @AfterMethod
     public void tearDownMethod(){
-        //driver.quit();
+        driver.quit();
 
 }
 }
