@@ -3,7 +3,7 @@ package com.cydeo.utilities;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
-
+//this class is only created in utilities package. One time for project framework, and it will be called with the class name
 public class ConfigurationReader {
     //1. first create an object of Properties class
     //we need properties class in order to use methods that come from that class
